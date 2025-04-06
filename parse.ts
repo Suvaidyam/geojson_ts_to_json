@@ -55,17 +55,19 @@ const combinedDistricts = {
             if (data?.features) {
                 for (let feature of data.features) {
                     if (feature.properties) {
-                        if (feature.properties.st_code && !feature.properties.st_code?.startsWith('S')) {
+                        let dt_code = feature.properties.dt_code || feature.properties.Dist_Code;
+                        let st_code = feature.properties.st_code || feature.properties.State_Code;
+                        if (st_code && !st_code?.startsWith('S')) {
                             feature.properties['st_code'] = `S${feature.properties.st_code}`;
                         }
-                        if (feature.properties.dt_code && !feature.properties.dt_code?.startsWith(feature.properties.st_code)) {
+                        if (dt_code && !dt_code?.startsWith(feature.properties.st_code)) {
                             feature.properties['dt_code'] = `${feature.properties.st_code}${feature.properties.dt_code}`;
                         }
                     }
                 }
 
                 // Add features to combined districts if they exist
-                combinedDistricts.features.push(...data.features);
+                combinedDistricts.features.push(...data.features.filter((feature: any) => feature.properties && feature.properties.dt_code));
             }
             fs.writeFileSync(path.join(outputPath, `${name}.json`), JSON.stringify(data, null, 2));
             console.log(`✅ ${relativePath} -> ${name}.json written.`);
