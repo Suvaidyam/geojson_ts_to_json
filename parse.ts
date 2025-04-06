@@ -34,6 +34,12 @@ function getAllTsFiles(dir: string): string[] {
 
 const files = getAllTsFiles(inputDir);
 
+// Create a combined districts GeoJSON structure
+const combinedDistricts = {
+    type: "FeatureCollection",
+    features: [] as any
+};
+
 (async () => {
     for (const filePath of files) {
         const relativePath = path.relative(inputDir, filePath);
@@ -47,7 +53,7 @@ const files = getAllTsFiles(inputDir);
             const mod = await import(filePath);
             const data = mod.default;
             if (data?.features) {
-                for (let feature of data?.features) {
+                for (let feature of data.features) {
                     if (feature.properties) {
                         if (feature.properties.st_code && !feature.properties.st_code?.startsWith('S')) {
                             feature.properties['st_code'] = `S${feature.properties.st_code}`;
@@ -57,6 +63,9 @@ const files = getAllTsFiles(inputDir);
                         }
                     }
                 }
+
+                // Add features to combined districts if they exist
+                combinedDistricts.features.push(...data.features);
             }
             fs.writeFileSync(path.join(outputPath, `${name}.json`), JSON.stringify(data, null, 2));
             console.log(`✅ ${relativePath} -> ${name}.json written.`);
@@ -64,4 +73,11 @@ const files = getAllTsFiles(inputDir);
             console.error(`❌ Failed to process ${relativePath}:`, err);
         }
     }
+
+    // Write the combined districts file
+    fs.writeFileSync(
+        path.join(outputDir, 'districts_boundaries.json'),
+        JSON.stringify(combinedDistricts, null, 2)
+    );
+    console.log('✅ Combined districts file written to districts_boundaries.json');
 })();
