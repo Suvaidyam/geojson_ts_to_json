@@ -15,7 +15,9 @@
         "state": "Daman and Diu",
         "State_Code": "25",
         "name": "Daman",
-        "Dist_Code": "495"
+        "Dist_Code": "495",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -1357,7 +1359,9 @@
         "state": "Daman and Diu",
         "State_Code": "25",
         "Dist_Name": "Diu",
-        "Dist_Code": "494"
+        "Dist_Code": "494",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "MultiPolygon",

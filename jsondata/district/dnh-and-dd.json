@@ -15,7 +15,9 @@
         "state": "Dadra and Nagar Haveli",
         "State_Code": "26",
         "name": "Dadra and Nagar Haveli",
-        "Dist_Code": "496"
+        "Dist_Code": "496",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",

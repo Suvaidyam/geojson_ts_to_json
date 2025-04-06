@@ -9,7 +9,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Bokaro",
-        "Dist_Code": "355"
+        "Dist_Code": "355",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -2783,7 +2785,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Chatra",
-        "Dist_Code": "347"
+        "Dist_Code": "347",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -5345,7 +5349,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Deoghar",
-        "Dist_Code": "350"
+        "Dist_Code": "350",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -7123,7 +7129,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Dhanbad",
-        "Dist_Code": "354"
+        "Dist_Code": "354",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -8413,7 +8421,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Dumka",
-        "Dist_Code": "362"
+        "Dist_Code": "362",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -11219,7 +11229,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Garhwa",
-        "Dist_Code": "346"
+        "Dist_Code": "346",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -12805,7 +12817,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Giridih",
-        "Dist_Code": "349"
+        "Dist_Code": "349",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -15443,7 +15457,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Godda",
-        "Dist_Code": "351"
+        "Dist_Code": "351",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -17433,7 +17449,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Gumla",
-        "Dist_Code": "366"
+        "Dist_Code": "366",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -19879,7 +19897,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Hazaribag",
-        "Dist_Code": "360"
+        "Dist_Code": "360",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -23413,7 +23433,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Jamtara",
-        "Dist_Code": "363"
+        "Dist_Code": "363",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -25311,7 +25333,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Kodarma",
-        "Dist_Code": "348"
+        "Dist_Code": "348",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -26861,7 +26885,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Latehar",
-        "Dist_Code": "359"
+        "Dist_Code": "359",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -29051,7 +29077,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Lohardaga",
-        "Dist_Code": "356"
+        "Dist_Code": "356",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -30185,7 +30213,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Pakur",
-        "Dist_Code": "353"
+        "Dist_Code": "353",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -32339,7 +32369,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Palamu",
-        "Dist_Code": "358"
+        "Dist_Code": "358",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -34385,7 +34417,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Pashchimi Singhbhum",
-        "Dist_Code": "368"
+        "Dist_Code": "368",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -36995,7 +37029,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Purba Singhbhum",
-        "Dist_Code": "357"
+        "Dist_Code": "357",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -39133,7 +39169,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Ranchi",
-        "Dist_Code": "364"
+        "Dist_Code": "364",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -42499,7 +42537,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Sahibganj",
-        "Dist_Code": "352"
+        "Dist_Code": "352",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -44033,7 +44073,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Saraikela-Kharsawan",
-        "Dist_Code": "369"
+        "Dist_Code": "369",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -45663,7 +45705,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Simdega",
-        "Dist_Code": "367"
+        "Dist_Code": "367",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -47317,7 +47361,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Khunti",
-        "Dist_Code": "365"
+        "Dist_Code": "365",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
@@ -49539,7 +49585,9 @@
         "state": "Jharkhand",
         "State_Code": "20",
         "name": "Ramgarh",
-        "Dist_Code": "361"
+        "Dist_Code": "361",
+        "st_code": "Sundefined",
+        "dt_code": "Sundefinedundefined"
       },
       "geometry": {
         "type": "Polygon",
